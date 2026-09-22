@@ -1,6 +1,6 @@
 cask "better-monitor" do
-  version "1.0.0"
-  sha256 "4f803bdcca9cb7b0e97bcf010a73159d924e21fd30710fc27bc1853cc2ec25a0"
+  version "1.0.1"
+  sha256 "68099017290b30e90fd07542fa6ac02c906a89993745ce5d8db00ac254e01e96"
 
   url "https://github.com/BetterMacNet/better-monitor/releases/download/v#{version}/BetterMonitor-#{version}.dmg"
   name "Better Monitor"
@@ -22,6 +22,7 @@ cask "better-monitor" do
   # Keychain 里的 net.better.mac.monitor.ai（AI API Key）zap 删不掉，
   # cask 没有 keychain 指令，需要 app 内提供清除入口。
   zap trash: [
+    "~/Library/Application Support/net.better.mac.monitor",
     "~/Library/Application Support/SystemMonitor",
     "~/Library/Caches/net.better.mac.monitor",
     "~/Library/HTTPStorages/net.better.mac.monitor",
