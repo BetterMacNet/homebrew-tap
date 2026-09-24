@@ -1,6 +1,6 @@
 cask "better-monitor" do
-  version "1.0.2"
-  sha256 "c805bb0a65c7dba5591d42fcd824d7170ce209400d675e33377be726723a5d8c"
+  version "1.0.3"
+  sha256 "0df8ea23d37760970ed6671b43284fe805ded252e49998a64b08dbfa747f93f8"
 
   url "https://github.com/BetterMacNet/better-monitor/releases/download/v#{version}/BetterMonitor-#{version}.dmg"
   name "Better Monitor"
