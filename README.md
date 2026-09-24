@@ -15,4 +15,4 @@ Casks:
 
 | Cask | Description |
 |------|-------------|
-| [better-monitor](https://github.com/BetterMacNet/better-monitor) | System monitor for processes, ports, network activity and startup items |
+| [better-monitor](https://github.com/BetterMacNet/better-monitor) | System monitor for processes, ports, network, startup items and local AI |

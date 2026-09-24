@@ -4,7 +4,7 @@ cask "better-monitor" do
 
   url "https://github.com/BetterMacNet/better-monitor/releases/download/v#{version}/BetterMonitor-#{version}.dmg"
   name "Better Monitor"
-  desc "System monitor for processes, ports, network activity and startup items"
+  desc "System monitor for processes, ports, network, startup items and local AI"
   homepage "https://bettermac.net/"
 
   # app 内没有自更新，版本发现靠 GitHub 的最新 release tag。
