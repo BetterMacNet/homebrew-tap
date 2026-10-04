@@ -1,10 +1,10 @@
 cask "better-monitor" do
-  version "1.0.4"
-  sha256 "ae2f53cebd75eb392be72124159c31fd043b4a4505c01ef92098fec13d3e1918"
+  version "1.0.5"
+  sha256 "13defe8e538f1f8aa6d5c498012b6f554e2061695c6e0d308941008558e753c5"
 
   url "https://github.com/BetterMacNet/better-monitor/releases/download/v#{version}/BetterMonitor-#{version}.dmg"
   name "Better Monitor"
-  desc "System monitor for processes, ports, network, startup items and local AI"
+  desc "System monitor for processes, ports, network, audio, startup items and local AI"
   homepage "https://bettermac.net/"
 
   # app 内没有自更新，版本发现靠 GitHub 的最新 release tag。
