@@ -1,8 +1,8 @@
 class Bmtop < Formula
   desc "Local-first macOS terminal monitor with native Apple Silicon SoC metrics"
   homepage "https://github.com/BetterMacNet/bmtop"
-  url "https://github.com/BetterMacNet/bmtop/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "82e296af2bd3bc0c2ac408df4cfaee4ba5d8fe74aceeebe7aaf03cf2292dd15e"
+  url "https://github.com/BetterMacNet/bmtop/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "9163bd5368b0245dc167b6f13b605ac4ea846e518dc1014d3f57b11c8a1a28b5"
   license "MIT"
 
   depends_on "rust" => :build
